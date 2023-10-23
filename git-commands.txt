@@ -1,0 +1,11 @@
+git init -- Initialized empty Git repository 
+git add . / git add filename -- stage files
+git status -- to view staged files
+git remote add origin https://github.com/JasmineXavier30/Mini-Projects.git -- create a new connection record to a remote repository
+git branch -M main -- rename current branch name to main for a new empty repo
+git commit -m "first commit" -- commit code with message -m
+git push -u origin main -- This command will push all changes on the current master branch to the remote repository // -u upstream (committing will push code directly to remote)
+
+
+git remote set-url origin git@personal:JasmineXavier30/Mini-Projects.git -- to use personal github
+git remote set-url origin git@work:JasmineXavier30/Mini-Projects.git -- to use work github
